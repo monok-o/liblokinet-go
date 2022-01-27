@@ -6,7 +6,7 @@ This is not stable, this is a test, DO NOT USE.
 ## Build
 
 ```
-git clone --recursive https://github.com/coldwireorg/liblokinet-go
+git clone --recursive https://github.com/monok-o/liblokinet-go
 cd liblokinet-go
 ```
 
