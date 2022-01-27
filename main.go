@@ -1,7 +1,17 @@
 package main
 
-import "lokitest/lokinet"
+import (
+	"log"
+	"lokitest/lokinet"
+)
 
 func main() {
-	lokinet.T()
+	isReady := lokinet.Start()
+
+	lokinet.Connect("exit.loki")
+
+	if isReady {
+		log.Println("our address:", lokinet.Addr())
+
+	}
 }
