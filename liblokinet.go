@@ -1,7 +1,7 @@
 package liblokinet
 
 /*
-#cgo CFLAGS: -I${SRCDIR}/external/lokinet/include
+#cgo CFLAGS: -I${SRCDIR}/lib
 #cgo LDFLAGS: -L${SRCDIR}/lib -llokinet -Wl,-rpath=${SRCDIR}/lib
 #include <lokinet.h>
 */
